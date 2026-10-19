@@ -17,13 +17,12 @@ jobs:
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
 
       - name: Run sync
-        run: wget --mirror --no-parent --reject "index.html*" --no-host-directories --cut-dirs=3 -P advisories https://packages.broadcom.com/photon/photon_cve_metadata/cve/
+        run: wget -r -l inf --no-parent --reject "index.html*" --no-host-directories --cut-dirs=3 -P advisories https://packages.broadcom.com/photon/photon_cve_metadata/cve/
 
       - name: Commit and push if it changed
         run: |-
           git config user.name "AboutCode Automation"
           git config user.email "automation@aboutcode.org"
           git add -A
-          timestamp=$(date -u)
-          git commit -m "$(echo -e "Sync Photon Advisories: $timestamp\n\nSigned-off-by: AboutCode Automation <automation@aboutcode.org>")" || exit 0
+          git commit -m "$(echo -e "Sync Photon Advisories\n\nSigned-off-by: AboutCode Automation <automation@aboutcode.org>")" || exit 0
           git push
