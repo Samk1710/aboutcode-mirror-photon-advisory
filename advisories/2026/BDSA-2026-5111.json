@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-5111",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:44.695470",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-5111",
+        "name": "BDSA-2026-5111"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/etcd@3.6.9-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/etcd@3.6.9-1.ph5?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "fixed",
+      "timestamp": "2026-04-04",
+      "status_notes": "Fixed"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-9415",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:39.510002",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-9415",
+        "name": "BDSA-2026-9415"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/go@1.26.5-2.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/go@1.26.5-2.ph5?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "not_affected",
+      "timestamp": "2026-08-17",
+      "status_notes": "Fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-9415",
+        "name": "BDSA-2026-9415"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/go?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/go?arch=aarch64&photon=ph4"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "As per the latest recommendation from the Security/Scope team, this will not be further fixed for the 4.0 branch unless reported by a customer, or flagged by a Qualys or Nessus scan."
+    }
+  ]
+}

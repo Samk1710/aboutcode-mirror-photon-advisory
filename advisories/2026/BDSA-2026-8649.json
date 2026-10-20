@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-8649",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:39.501632",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-8649",
+        "name": "BDSA-2026-8649"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/gnutls@3.8.13-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls@3.8.13-1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls-devel@3.8.13-1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls-devel@3.8.13-1.ph5?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "fixed",
+      "timestamp": "2026-05-17",
+      "status_notes": "Fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-8649",
+        "name": "BDSA-2026-8649"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/gnutls@3.7.10-7.ph4?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls@3.7.10-7.ph4?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls-devel@3.7.10-7.ph4?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls-devel@3.7.10-7.ph4?arch=aarch64&photon=ph4"
+        }
+      ],
+      "status": "not_affected",
+      "timestamp": "2026-05-13",
+      "status_notes": "Fixed"
+    }
+  ]
+}

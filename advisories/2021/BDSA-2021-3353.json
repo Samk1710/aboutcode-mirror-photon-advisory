@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2021/BDSA-2021-3353",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:39.456432",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2021-3353",
+        "name": "BDSA-2021-3353"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/kubernetes?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/kubernetes?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/kubernetes-kubeadm?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/kubernetes-kubeadm?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/kubernetes-pause?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/kubernetes-pause?arch=aarch64&photon=ph4"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": " BDSA vulnerabilities are from synopsys BDSA databse , which doesn't have clear information about the fixes."
+    }
+  ]
+}

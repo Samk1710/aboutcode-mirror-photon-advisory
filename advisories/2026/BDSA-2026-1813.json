@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-1813",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:39.472096",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-1813",
+        "name": "BDSA-2026-1813"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/gnutls?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls-devel?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls-devel?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls-devel?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/gnutls-devel?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "The vulnerability was introduced in version 3.8.11. Photon OS 4.0 use gnutls 3.7.10, and the commit that introduced the issue was never backported to the 3.7.10.; The vulnerability was introduced in version 3.8.11. Photon OS 5.0 use gnutls 3.7.10, and the commit that introduced the issue was never backported to the 3.7.10."
+    }
+  ]
+}

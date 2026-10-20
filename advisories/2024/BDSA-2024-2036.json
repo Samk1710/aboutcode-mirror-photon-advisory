@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2024/BDSA-2024-2036",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:39.464186",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2024-2036",
+        "name": "BDSA-2024-2036"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/nginx?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-njs?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-njs?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-headers-more?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-headers-more?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-stream?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-stream?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-http-dav?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-http-dav?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-stream-ssl-preread?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-mod-stream-ssl-preread?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-all-modules?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nginx-all-modules?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": "These bugs were opened more than a year ago and there is no comprehensive info on the issue and I don't see any traction in upstream as well on this, hence closing this."
+    }
+  ]
+}

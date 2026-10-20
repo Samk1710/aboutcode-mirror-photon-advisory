@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-9496",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:39.511270",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-9496",
+        "name": "BDSA-2026-9496"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/python3-mako@1.1.3-5.ph4?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-mako@1.1.3-5.ph4?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-mako?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-mako?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "not_affected",
+      "timestamp": "2026-05-15",
+      "status_notes": "Fixed; explicitly Windows-only. On Linux, \\ is not a path separator; posixpath.join() treats it as a literal character, so the traversal does not work. Debian marks all Linux distributions as not-affected. "
+    }
+  ]
+}

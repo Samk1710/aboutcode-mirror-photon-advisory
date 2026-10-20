@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-35489",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:44.688012",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-35489",
+        "name": "BDSA-2026-35489"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/openssl?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-libs?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-libs?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-devel?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-devel?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-perl?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-perl?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-c_rehash?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-c_rehash?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-docs?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssl-docs?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "under_investigation"
+    }
+  ]
+}

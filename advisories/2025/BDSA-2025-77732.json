@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2025/BDSA-2025-77732",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:39.466073",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2025-77732",
+        "name": "BDSA-2025-77732"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/dnsmasq@2.90-3.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/dnsmasq@2.90-3.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/dnsmasq-utils@2.90-3.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/dnsmasq-utils@2.90-3.ph5?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "fixed",
+      "timestamp": "2026-02-05",
+      "status_notes": "Fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2025-77732",
+        "name": "BDSA-2025-77732"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/dnsmasq@2.90-2.ph4?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/dnsmasq@2.90-2.ph4?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/dnsmasq-utils@2.90-2.ph4?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/dnsmasq-utils@2.90-2.ph4?arch=aarch64&photon=ph4"
+        }
+      ],
+      "status": "not_affected",
+      "timestamp": "2026-02-04",
+      "status_notes": "Fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2025-77732",
+        "name": "BDSA-2025-77732"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/dnsmasq?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/dnsmasq?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/dnsmasq-utils?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/dnsmasq-utils?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "under_investigation"
+    }
+  ]
+}

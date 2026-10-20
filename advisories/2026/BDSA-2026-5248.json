@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-5248",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:44.695646",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-5248",
+        "name": "BDSA-2026-5248"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/rubygem-activesupport?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/rubygem-activesupport?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "This CVE impacts Active Storage gem https://github.com/rails/rails/commit/b8a1665824a43d71cd6406cf9adcae842ceb1c22. Which is not present in photon-5.0"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2019/BDSA-2019-0204",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-19T05:09:39.446738",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2019-0204",
+        "name": "BDSA-2019-0204"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/lzo?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo-minilzo?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo-minilzo?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo-devel?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo-devel?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo-minilzo?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo-minilzo?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo-devel?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/lzo-devel?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "under_investigation",
+      "status_notes": " BDSA vulnerabilities are from synopsys BDSA databse , which doesn't have clear information about the fixes."
+    }
+  ]
+}
