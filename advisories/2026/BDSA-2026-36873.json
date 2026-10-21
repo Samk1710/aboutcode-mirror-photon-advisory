@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-36873",
     "author": "VMware Photon OS",
-    "timestamp": "2026-10-19T05:09:39.493175",
+    "timestamp": "2026-10-20T05:09:37.463959",
     "version": 1
   },
   "statements": [
@@ -14,67 +14,69 @@
       },
       "products": [
         {
-          "@id": "pkg:rpm/photon/mariadb?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb@10.11.19-1.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb@10.11.19-1.ph4?arch=aarch64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-server?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb-server@10.11.19-1.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-server?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb-server@10.11.19-1.ph4?arch=aarch64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-server-galera?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb-server-galera@10.11.19-1.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-server-galera?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb-server-galera@10.11.19-1.ph4?arch=aarch64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-devel?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb-devel@10.11.19-1.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-devel?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb-devel@10.11.19-1.ph4?arch=aarch64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-errmsg?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb-errmsg@10.11.19-1.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-errmsg?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/mariadb-errmsg@10.11.19-1.ph4?arch=aarch64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb?arch=x86_64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb@11.8.9-1.ph5?arch=x86_64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb?arch=aarch64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb@11.8.9-1.ph5?arch=aarch64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-server?arch=x86_64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb-server@11.8.9-1.ph5?arch=x86_64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-server?arch=aarch64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb-server@11.8.9-1.ph5?arch=aarch64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-server-galera?arch=x86_64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb-server-galera@11.8.9-1.ph5?arch=x86_64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-server-galera?arch=aarch64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb-server-galera@11.8.9-1.ph5?arch=aarch64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-devel?arch=x86_64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb-devel@11.8.9-1.ph5?arch=x86_64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-devel?arch=aarch64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb-devel@11.8.9-1.ph5?arch=aarch64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-errmsg?arch=x86_64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb-errmsg@11.8.9-1.ph5?arch=x86_64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/mariadb-errmsg?arch=aarch64&photon=ph5"
+          "@id": "pkg:rpm/photon/mariadb-errmsg@11.8.9-1.ph5?arch=aarch64&photon=ph5"
         }
       ],
-      "status": "under_investigation"
+      "status": "not_affected",
+      "timestamp": "2026-10-19",
+      "status_notes": "Fixed"
     }
   ]
 }
