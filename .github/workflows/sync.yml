@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
 
       - name: Run sync
-        run: wget -r -l inf --no-parent --reject "index.html*" --no-host-directories --cut-dirs=3 -P advisories https://packages.broadcom.com/photon/photon_cve_metadata/cve/
+        run: wget -r -l inf --no-parent --reject "index.html*" --no-host-directories --cut-dirs=3 -P advisories https://packages.broadcom.com/photon/photon_cve_metadata/cve/ || test $? -eq 8
 
       - name: Commit and push if it changed
         run: |-
