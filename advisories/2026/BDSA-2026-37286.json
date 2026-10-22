@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-37286",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-21T05:09:44.040502",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-37286",
+        "name": "BDSA-2026-37286"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/gstreamer?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gstreamer?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gstreamer-devel?arch=x86_64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/gstreamer-devel?arch=aarch64&photon=ph4"
+        }
+      ],
+      "status": "under_investigation"
+    }
+  ]
+}

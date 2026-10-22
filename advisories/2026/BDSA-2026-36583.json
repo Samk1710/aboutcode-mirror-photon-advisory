@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-36583",
     "author": "VMware Photon OS",
-    "timestamp": "2026-10-20T05:09:37.461132",
+    "timestamp": "2026-10-21T05:09:44.034172",
     "version": 1
   },
   "statements": [
@@ -62,7 +62,8 @@
           "@id": "pkg:rpm/photon/openssh-socket?arch=aarch64&photon=ph5"
         }
       ],
-      "status": "under_investigation"
+      "status": "under_investigation",
+      "status_notes": "Fixed"
     }
   ]
 }
