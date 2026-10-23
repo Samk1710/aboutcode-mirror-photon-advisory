@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-36583",
     "author": "VMware Photon OS",
-    "timestamp": "2026-10-21T05:09:44.034172",
+    "timestamp": "2026-10-22T05:09:37.828677",
     "version": 1
   },
   "statements": [
@@ -14,29 +14,40 @@
       },
       "products": [
         {
-          "@id": "pkg:rpm/photon/openssh?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/openssh@8.9p1-17.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/openssh?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/openssh@8.9p1-17.ph4?arch=aarch64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/openssh-clients?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/openssh-clients@8.9p1-17.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/openssh-clients?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/openssh-clients@8.9p1-17.ph4?arch=aarch64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/openssh-server?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/openssh-server@8.9p1-17.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/openssh-server?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/openssh-server@8.9p1-17.ph4?arch=aarch64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/openssh-socket?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/openssh-socket@8.9p1-17.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/openssh-socket?arch=aarch64&photon=ph4"
-        },
+          "@id": "pkg:rpm/photon/openssh-socket@8.9p1-17.ph4?arch=aarch64&photon=ph4"
+        }
+      ],
+      "status": "not_affected",
+      "timestamp": "2026-10-20",
+      "status_notes": "Fixed"
+    },
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-36583",
+        "name": "BDSA-2026-36583"
+      },
+      "products": [
         {
           "@id": "pkg:rpm/photon/openssh?arch=x86_64&photon=ph5"
         },
@@ -62,8 +73,7 @@
           "@id": "pkg:rpm/photon/openssh-socket?arch=aarch64&photon=ph5"
         }
       ],
-      "status": "under_investigation",
-      "status_notes": "Fixed"
+      "status": "under_investigation"
     }
   ]
 }

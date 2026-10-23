@@ -1,0 +1,116 @@
+{
+  "metadata": {
+    "@context": "https://openvex.dev/ns/v0.2.0",
+    "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-37951",
+    "author": "VMware Photon OS",
+    "timestamp": "2026-10-22T05:09:43.326597",
+    "version": 1
+  },
+  "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-37951",
+        "name": "BDSA-2026-37951"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/nodejs?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nodejs?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nodejs-devel?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nodejs-devel?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nss?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nss?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nss-devel?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nss-devel?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nss-libs?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/nss-libs?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-libs?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-libs?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-xml?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-xml?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-curses?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-curses?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-devel?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-devel?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-tools?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-tools?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-test?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-test?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-macros?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-macros?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-certifi?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-certifi?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-pip?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-pip?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-pip-wheel?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/python3-pip-wheel?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "under_investigation"
+    }
+  ]
+}
