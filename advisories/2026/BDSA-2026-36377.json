@@ -3,10 +3,86 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-36377",
     "author": "VMware Photon OS",
-    "timestamp": "2026-10-22T05:09:37.822113",
+    "timestamp": "2026-10-23T05:09:38.864591",
     "version": 1
   },
   "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-36377",
+        "name": "BDSA-2026-36377"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/linux?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-devel?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-devel?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-drivers-gpu?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-drivers-gpu?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-drivers-sound?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-drivers-sound?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-docs?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-docs?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-tools?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-tools?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-python3-perf?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-python3-perf?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/bpftool?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/bpftool?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx-devel?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx-devel?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx-docs?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx-docs?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "not_affected",
+      "status_notes": "CONFIG_RDMA_SIW is not enabled in photon kernels, hence marking this bug as not affected."
+    },
     {
       "vulnerability": {
         "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-36377",
