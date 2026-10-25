@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-36583",
     "author": "VMware Photon OS",
-    "timestamp": "2026-10-23T05:09:38.871355",
+    "timestamp": "2026-10-24T05:09:36.444037",
     "version": 1
   },
   "statements": [
@@ -36,6 +36,30 @@
         },
         {
           "@id": "pkg:rpm/photon/openssh-socket@8.9p1-17.ph4?arch=aarch64&photon=ph4"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssh@10.6p1-0.1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssh@10.6p1-0.1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssh-clients@10.6p1-0.1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssh-clients@10.6p1-0.1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssh-server@10.6p1-0.1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssh-server@10.6p1-0.1.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssh-socket@10.6p1-0.1.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/openssh-socket@10.6p1-0.1.ph5?arch=aarch64&photon=ph5"
         }
       ],
       "status": "not_affected",
