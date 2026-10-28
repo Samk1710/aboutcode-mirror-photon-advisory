@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2023/BDSA-2023-1926",
     "author": "VMware Photon OS",
-    "timestamp": "2026-10-26T05:09:36.892017",
+    "timestamp": "2026-10-27T05:09:39.027547",
     "version": 1
   },
   "statements": [
