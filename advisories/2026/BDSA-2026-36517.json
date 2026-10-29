@@ -3,10 +3,87 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-36517",
     "author": "VMware Photon OS",
-    "timestamp": "2026-10-27T05:09:39.053352",
+    "timestamp": "2026-10-28T05:09:39.251945",
     "version": 1
   },
   "statements": [
+    {
+      "vulnerability": {
+        "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-36517",
+        "name": "BDSA-2026-36517"
+      },
+      "products": [
+        {
+          "@id": "pkg:rpm/photon/linux@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-devel@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-devel@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-drivers-gpu@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-drivers-gpu@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-drivers-sound@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-drivers-sound@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-docs@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-docs@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-tools@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-tools@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-python3-perf@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-python3-perf@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/bpftool@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/bpftool@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx-devel@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx-devel@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx-docs@6.12.113-5.ph5?arch=x86_64&photon=ph5"
+        },
+        {
+          "@id": "pkg:rpm/photon/linux-esx-docs@6.12.113-5.ph5?arch=aarch64&photon=ph5"
+        }
+      ],
+      "status": "not_affected",
+      "timestamp": "2026-10-23",
+      "status_notes": "Fixed"
+    },
     {
       "vulnerability": {
         "@id": "https://nvd.nist.gov/vuln/detail/BDSA-2026-36517",
