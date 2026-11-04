@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-15508",
     "author": "VMware Photon OS",
-    "timestamp": "2026-11-02T05:09:44.338040",
+    "timestamp": "2026-11-03T05:09:43.495875",
     "version": 1
   },
   "statements": [
@@ -14,31 +14,33 @@
       },
       "products": [
         {
-          "@id": "pkg:rpm/photon/util-linux?arch=x86_64&photon=ph5"
+          "@id": "pkg:rpm/photon/util-linux@2.41.5-1.ph5?arch=x86_64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/util-linux?arch=aarch64&photon=ph5"
+          "@id": "pkg:rpm/photon/util-linux@2.41.5-1.ph5?arch=aarch64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/util-linux-lang?arch=x86_64&photon=ph5"
+          "@id": "pkg:rpm/photon/util-linux-lang@2.41.5-1.ph5?arch=x86_64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/util-linux-lang?arch=aarch64&photon=ph5"
+          "@id": "pkg:rpm/photon/util-linux-lang@2.41.5-1.ph5?arch=aarch64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/util-linux-devel?arch=x86_64&photon=ph5"
+          "@id": "pkg:rpm/photon/util-linux-devel@2.41.5-1.ph5?arch=x86_64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/util-linux-devel?arch=aarch64&photon=ph5"
+          "@id": "pkg:rpm/photon/util-linux-devel@2.41.5-1.ph5?arch=aarch64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/util-linux-libs?arch=x86_64&photon=ph5"
+          "@id": "pkg:rpm/photon/util-linux-libs@2.41.5-1.ph5?arch=x86_64&photon=ph5"
         },
         {
-          "@id": "pkg:rpm/photon/util-linux-libs?arch=aarch64&photon=ph5"
+          "@id": "pkg:rpm/photon/util-linux-libs@2.41.5-1.ph5?arch=aarch64&photon=ph5"
         }
       ],
-      "status": "under_investigation"
+      "status": "not_affected",
+      "timestamp": "2026-07-09",
+      "status_notes": "Fixed"
     }
   ]
 }
