@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2026/BDSA-2026-38070",
     "author": "VMware Photon OS",
-    "timestamp": "2026-11-03T05:09:37.687207",
+    "timestamp": "2026-11-04T05:09:37.650802",
     "version": 1
   },
   "statements": [
@@ -14,19 +14,21 @@
       },
       "products": [
         {
-          "@id": "pkg:rpm/photon/nodejs?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/nodejs@22.23.4-1.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/nodejs?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/nodejs@22.23.4-1.ph4?arch=aarch64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/nodejs-devel?arch=x86_64&photon=ph4"
+          "@id": "pkg:rpm/photon/nodejs-devel@22.23.4-1.ph4?arch=x86_64&photon=ph4"
         },
         {
-          "@id": "pkg:rpm/photon/nodejs-devel?arch=aarch64&photon=ph4"
+          "@id": "pkg:rpm/photon/nodejs-devel@22.23.4-1.ph4?arch=aarch64&photon=ph4"
         }
       ],
-      "status": "under_investigation"
+      "status": "not_affected",
+      "timestamp": "2026-10-21",
+      "status_notes": "Fixed"
     }
   ]
 }

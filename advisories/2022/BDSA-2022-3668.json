@@ -3,7 +3,7 @@
     "@context": "https://openvex.dev/ns/v0.2.0",
     "@id": "https://packages.broadcom.com/photon/photon_cve_metadata/cve/2022/BDSA-2022-3668",
     "author": "VMware Photon OS",
-    "timestamp": "2026-11-03T05:09:37.642523",
+    "timestamp": "2026-11-04T05:09:37.611769",
     "version": 1
   },
   "statements": [
